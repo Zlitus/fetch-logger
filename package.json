@@ -12,8 +12,5 @@
     "requests"
   ],
   "author": "Arnaud Lefort",
-  "license": "WTFPL",
-  "dependencies": {
-    "node-fetch": "^2.1.2"
-  }
+  "license": "SEE LICENSE IN LICENSE"
 }
