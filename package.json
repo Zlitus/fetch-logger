@@ -1,0 +1,19 @@
+{
+  "name": "fetch-logger",
+  "version": "0.0.1",
+  "description": "Logger for fetch (Work with any “fetch-compatible” function).",
+  "main": "fetchLog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fetch",
+    "logger",
+    "requests"
+  ],
+  "author": "Arnaud Lefort",
+  "license": "WTFPL",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
