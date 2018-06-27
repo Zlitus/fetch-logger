@@ -12,5 +12,6 @@
     "requests"
   ],
   "author": "Arnaud Lefort",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {}
 }
