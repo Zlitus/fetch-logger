@@ -7,12 +7,10 @@ try {
 var fetchLog = function(urlOrFetch, optionsOrUrl, options) {
 	var url, options;
 	if (typeof(urlOrFetch) === 'function' && typeof(optionsOrUrl) === 'string') {
-		console.log('Case N°1');
 		fetch = urlOrFetch;
 		url = optionsOrUrl;
 		options = options;
 	} else if (typeof(urlOrFetch) === 'string' && options === undefined) {
-		console.log('Case N°2');
 		url = urlOrFetch;
 		options = optionsOrUrl;
 	} else {
