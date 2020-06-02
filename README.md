@@ -8,10 +8,9 @@ fetch logger will try by default to use the module `node-fetch`, but it's not a 
 
 NodeJS example using the module `node-fetch`.
 ```
-const nodeFetch = require('node-fetch');
 const fetch = require('fetch-logger');
 
-fetch(nodeFetch, 'http://127.0.0.1:8000', {headers: {'X-Hello': 'world'}}).then((result) => {
+fetch('http://127.0.0.1:8000', {headers: {'X-Hello': 'world'}}).then((result) => {
 	console.log('Response retrieved!');
 });
 ```
